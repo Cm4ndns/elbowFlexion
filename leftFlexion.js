@@ -68,6 +68,7 @@ function elbowRange(obj14, obj16) {
         if(counter % 2 === 0) {
           reps.innerHTML = '#reps = ' + counter / 2;
           console.log(maxAngle);
+          console.log("Rep = " + counter / 2 + " Set = " + set_counter);
           dayRange += maxAngle;
           maxAngle = 15;
         }
